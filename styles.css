@@ -1,0 +1,270 @@
+@media (max-width: 614px){
+ * {
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color:  #E5E5E5;
+
+  }
+
+  .barTop {
+    height: 80px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color:#FFFFFF ;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+    position: fixed;
+
+  }
+
+  .barBottom{
+    height: 80px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .logoUol {
+    height: 53px;
+    width: 75px;
+    left: 22px;
+    top: 16px;
+    margin-left: 22px;
+    border-radius: 0px;
+    
+  }
+
+  .iconeTopo{
+    height: 30.93753433227539px;
+    width: 42.18772506713867px;
+    border-radius: 0px;
+    margin-right: 22px;
+  }
+
+  input{
+    padding-right: 58px;
+    padding-left: 17px;
+    height: 80px;
+    width: 100%;  font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000; 
+    border: none;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  .escrevaMsg::placeholder{
+    font-style: italic;
+    color: #000000
+  }
+
+  .outline{
+    height: 26px;
+    width: 26px;
+    left: 331px;
+    bottom: 25px;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .containerLogs{
+    margin-top:106px ;
+    margin-bottom:  106px ;
+    overflow: hidden;
+  }
+  
+
+  .entrou {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#DCDCDC ;
+    height: 40px;
+    width: 100%;
+    left: 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+  }
+
+  .msg {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#FFFFFF;
+    height: 40px;
+    width: 100%;
+    left: 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+  }
+
+  .msgPrivada{
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#FFDEDE;
+    height: 40px;
+    width: 100%;
+    left: 0px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+  }
+
+  
+
+  .entrou span {
+    font-weight: 700;
+
+  }
+
+  .msg span {
+    font-weight: 700;
+  }
+
+  .msgPrivada span {
+    font-weight: 700;
+  }
+
+
+  li {
+    z-index: -1;
+  }
+
+
+  .telaLogin {
+    width: 100%;
+    height: 100%;
+    background-color:#FFFFFF;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .telaLogin .logoUol{
+    width: 130px;
+    height: 92px;
+    position: fixed;
+    top: 72px;
+    left: 100px;
+  }
+
+  .escrevaLogin{
+    height: 54px;
+    width: 260px;
+    left: 58px;
+    top: 258px;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    position: fixed;
+    box-shadow: 0px 0px;
+  }
+
+  .escrevaNovoLogin {
+    height: 54px;
+    width: 260px;
+    left: 58px;
+    top: 258px;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    position: fixed;
+    box-shadow: 0px 0px;
+  }
+
+
+  .escrevaLogin::placeholder {
+    padding-left: 43px;
+    text-align: center;
+    color:  #AEAEAE;
+  }
+
+  .escrevaNovoLogin::placeholder {
+    padding-left: 43px;
+    text-align: center;
+    color:  #AEAEAE;
+  }
+
+  .botaoLogin{
+    width: 109px;
+    height: 45px;
+    border: 0;
+    background: #E7E7E7;
+    border-radius: 9px;
+    left: 133px;
+    top: 327px;
+    position: fixed;
+    transition: all 0.3s ;
+  }
+
+  .loginAbaixo{
+    top: 335px;
+
+  }
+
+  .botaoLogin p {
+    color: #696969;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .desliga{
+    display: none;
+  }
+
+  .loading {
+    left: 90px;
+    top: 260px;
+    border-radius: 4px;
+    position: fixed;
+  }
+
+  h3 {
+    font-size: 20px;
+    position: fixed;
+    left: 145px;
+    top: 450px;
+  }
+   h5 {
+    font-size: 10px;
+    color: red;
+    position: fixed;
+    left: 65px;
+    top: 320px;
+   }
+  
+   .textErro{
+    display: none;
+   }
+
+   .liga {
+    display: initial;
+   }
+
+
+
+}

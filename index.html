@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>uol</title>
+</head>
+<body>
+    <div class="telaLogin">
+        <img class="logoUol" src="./img/logo 1.svg" >
+        <input type="text" class="escrevaLogin" name="nome" value="" placeholder="Digite seu nome" />
+        <h5 class="textErro">Esse nome ja esta sendo usado, porfavor escolha outro</h5>
+        <button class="botaoLogin" onclick="novoN()" ><P>Entrar</P></button>
+        <img class="loading desliga" src="./img/Gear-0.2s-200px.gif" alt="">
+        <h3 class="textoEntrando desliga">Entrando...</h3>
+    </div>
+    <div class="barTop">
+        <img class="logoUol" src="./img/logo 1.svg" >
+        <img class="iconeTopo" src="./img/Vector.svg" >
+    </div>
+    <ul class="containerLogs"> </ul>
+    <div class="barBottom">
+         <input type="text" class="escrevaMsg" name="nome" value="" placeholder="Escreva aqui..." />
+        <ion-icon class="outline" name="paper-plane-outline" onclick="sendMsg(this)"></ion-icon>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
